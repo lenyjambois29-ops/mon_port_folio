@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    color: rgb(5, 5, 250);
+}
+header {
+    display: flex;
+    /* ??? : Quelle propriété pour pousser les éléments aux extrémités ? */
+    /* ??? : Quelle propriété pour centrer les éléments verticalement ? */
+    padding: 1rem 2rem;
+    background-color:rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
